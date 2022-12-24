@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* navbar spacing */
+.navbar-nav > li{
+  padding-left:0px;
+  padding-right:30px;
+}
+/* navbar headers size */
+.nav-item{
+  font-size: 18px;
+}
+
+.nav-link{
+  position: relative;
+}
+.nav-link::after{
+  content: '';
+  opacity: 0;
+  transition: all 0.2s;
+  height: 3px;
+  width: 100%;
+  background-color: #2D3092;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.nav-link:hover::after{
+  opacity: 1;
+}
