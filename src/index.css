@@ -14,7 +14,7 @@ code {
 
 /* navbar spacing */
 .navbar-nav > li{
-  padding-left:0px;
+  padding-left:30px;
   padding-right:30px;
 }
 /* navbar headers size */
@@ -31,11 +31,21 @@ code {
   transition: all 0.2s;
   height: 3px;
   width: 100%;
-  background-color: #2D3092;
+  background-color: #ffffff;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 .nav-link:hover::after{
   opacity: 1;
+}
+
+/* for navbar coloring */
+.navbar-custom {
+  background-color: #2D3092 ;
+}
+
+/* toggle icon coloring */
+.custom-toggler.navbar-toggler {
+  border-color: white;
 }
