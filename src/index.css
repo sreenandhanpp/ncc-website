@@ -40,12 +40,42 @@ code {
   opacity: 1;
 }
 
-/* for navbar coloring */
+/* for navbar  */
 .navbar-custom {
   background-color: #2D3092 ;
 }
+/* .navbar {
+  height: 0;
+} */
 
 /* toggle icon coloring */
 .custom-toggler.navbar-toggler {
   border-color: white;
+}
+
+/* flag  */
+.flag{
+  width: 5rem;
+  height: 7rem;
+}
+
+.heading h3{
+  font-size:2vw;
+}
+
+/* mobile devices */
+@media screen and (max-width: 480px) {
+  .flag{
+    width: 3rem;
+    height: 5rem;
+  }
+  .heading h3{
+    font-size: 12px;
+  }
+}
+
+
+/* slide */
+.carousel-item img{
+  height: 33rem;
 }
