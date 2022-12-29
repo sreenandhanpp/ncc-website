@@ -76,6 +76,17 @@ code {
 
 
 /* slide */
-.carousel-item img{
+/* .carousel-item img{
   height: 33rem;
+} */
+
+/* Aboout */
+.about-img{
+  height: 29rem;
+  width: 26rem;
+  align-items: center;
+}
+.about-div{
+  height: 35rem;
+  
 }
