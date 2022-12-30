@@ -63,16 +63,8 @@ code {
   font-size:2vw;
 }
 
-/* mobile devices */
-@media screen and (max-width: 480px) {
-  .flag{
-    width: 3rem;
-    height: 5rem;
-  }
-  .heading h3{
-    font-size: 12px;
-  }
-}
+
+
 
 
 /* slide */
@@ -87,32 +79,110 @@ code {
   align-items: center;
 }
 .about-div{
-  height: 35rem;
+  height: 27rem;
   
 }
 
 /* Motto */
 
-.motto{
-  height: 33rem;
+.blockquote p{
+  font-weight: bolder;
+  font-style: italic;
 }
-.blockquote-custom {
-  position: relative;
-  font-size: 1.1rem;
+.qoute{
+  border-left: .25rem solid #2D3092;
+}
+
+  /* song */
+
+.song{
+  background-color:#2D3092;
+  height: 27rem;
+}
+.song p{
+  font-weight: bold;
+  font-style: italic;
+  color: white; 
+}
+.song h3{
+  color: #ffffff;
+}
+.song-animate{
+  animation:  songlyrics ease-in 284s;
+}
+@keyframes songlyrics {
+  0%{
+    transform: translateY(0px);
+  }5%{
+    transform: translateY(-10px);
+  }8%{
+    transform: translateY(-20px);
+  }10%{
+    transform: translateY(-100px);
+  }20%{
+    transform: translateY(-200px);
+  }30%{
+    transform: translateY(-300px);
+  }40%{
+    transform: translateY(-400px);
+  }50%{
+    transform: translateY(-500px);
+  }60%{
+    transform: translateY(-600px);
+  }70%{
+    transform: translateY(-700px);
+  }80%{
+    transform: translateY(-800px);
+  }90%{
+    transform: translateY(-900px);
+  }100%{
+    transform: translateY(-1000px);
   }
-  
-  .blockquote-custom-icon {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: -40px;
-  left: 19px;
+}
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #006773;
+-webkit-box-shadow:  2px 2px 4px 0px #006773;
+box-shadow: 2px 2px 4px 0px #006773;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+.over{
+  width: 26rem;
+  height: 19rem;
+}
+
+
+  /* mobile devices */
+  @media screen and (max-width: 480px) {
+    .flag{
+      width: 3rem;
+      height: 5rem;
+    }
+    .heading h3{
+      font-size: 12px;
+    }
+    .about-div{
+      height: 48rem;
+      
+    }
+    
   }
-  .motto-p{
-    font-style:  italic;
-    font-weight: bolder;
-  }
+
+ 

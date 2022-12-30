@@ -1,8 +1,8 @@
 import React from 'react'
 import About from '../components/About'
 import Header from '../components/Header'
-import Motto from '../components/Motto'
 import Slide from '../components/Slide'
+import Song from '../components/Song'
 
 function Home() {
   return (
@@ -10,7 +10,8 @@ function Home() {
         <Header />
         <Slide />
         <About />
-        <Motto />
+        <Song />
+        
     </div>
   )
 }
